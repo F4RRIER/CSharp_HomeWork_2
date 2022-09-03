@@ -1,4 +1,4 @@
 ﻿System.Console.WriteLine("Введите трёхзначное число: ");
-int threeNumber = Convert.ToInt32(Console.ReadLine());
+int threeNumber = int.Parse(Console.ReadLine());
 string stringNumber = Convert.ToString(threeNumber);
-System.Console.WriteLine("Вторая цифра этого числа: "+stringNumber[1]);
+System.Console.WriteLine("Вторая цифра этого числа: " + stringNumber[1]);
